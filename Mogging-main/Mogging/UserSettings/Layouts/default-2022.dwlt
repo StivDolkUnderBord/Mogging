@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Hierarchy
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -321,7 +321,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Resources/Enemies
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -329,30 +329,30 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Resources/Enemies
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\zbcjshan\Documents\GitHub\Mogging\Mogging-main\Mogging
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 26}
-    m_SelectedIDs: ba590000
-    m_LastClickedID: 22970
-    m_ExpandedIDs: 00000000785900007a5900007c5900007e590000805900008259000084590000865900008c59000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 10}
+    m_SelectedIDs: 745c0000
+    m_LastClickedID: 23668
+    m_ExpandedIDs: 0000000042590000485900004a590000a8590000305c0000345c0000405c0000445c0000705c000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Player
+      m_OriginalName: Player
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 22954
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 5}
     m_SearchString: 
@@ -366,7 +366,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000785900007a5900007c5900007e59000080590000825900008459000086590000
+    m_ExpandedIDs: 0000000042590000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -506,9 +506,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: c8590000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 3cf8ffff8ef8ffffe0f8ffff32f9ffff84f9ffff18fbffff
+      m_SelectedIDs: a0c6ffff
+      m_LastClickedID: -14688
+      m_ExpandedIDs: c8acffffbaafffffc4caffffdce8ffff38e9ffff8ce9ffff04ecffff54ecffffceecffff20edffff70f6ffffb4f6ffff86f9ffffbafaffff80590000f45a0000085b0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -901,9 +901,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: 0}
+    m_Target: {x: -0.57689166, y: 2.495955, z: 3.9257827}
     speed: 2
-    m_Value: {x: -0.000000034385423, y: 0.00000014877051, z: 0.00000023399488}
+    m_Value: {x: -0.57689166, y: 2.495955, z: 3.9257827}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -953,9 +953,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.086272985, y: 0.8862675, z: -0.18363495, w: -0.41637132}
   m_Size:
-    m_Target: 7.071068
+    m_Target: 1.8377029
     speed: 2
-    m_Value: 7.0710673
+    m_Value: 1.8377029
   m_Ortho:
     m_Target: 0
     speed: 2
