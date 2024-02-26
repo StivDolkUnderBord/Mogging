@@ -22,7 +22,6 @@ public class TowerPlacement : MonoBehaviour
         {
 
             Ray camray = PlayerCamera.ScreenPointToRay(Input.mousePosition);
-
             if(Physics.Raycast(camray, out RaycastHit hitInfo, 100f))
             {
                 CurrentPlacingTower.transform.position = hitInfo.point;
@@ -38,7 +37,6 @@ public class TowerPlacement : MonoBehaviour
 
     public void SetTowerToPlace(GameObject tower)
     { 
-    CurrentPlacingTower = Instantiate(tower,Vector3.zero, Quaternion.identity);
+       CurrentPlacingTower = Instantiate(tower,Vector3.zero, Quaternion.identity);
     }
-
 }
