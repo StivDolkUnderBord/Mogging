@@ -13,5 +13,7 @@ public class Enemy : MonoBehaviour
     public void Init()
     {
         Health = MaxHealth;
+        transform.position = GameLoopManager.NodePositions[0];
+        NodeIndex = 0;
     }
 }
