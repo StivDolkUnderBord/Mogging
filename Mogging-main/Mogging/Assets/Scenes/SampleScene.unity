@@ -728,7 +728,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e802f56de09e404aa13c727bdbcf2e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerCamera: {fileID: 0}
 --- !u!1 &436220587
 GameObject:
   m_ObjectHideFlags: 0
@@ -3510,9 +3509,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 432270882}
+      - m_Target: {fileID: 432270878}
         m_TargetAssemblyTypeName: TowerPlacement, Assembly-CSharp
-        m_MethodName: SetTowerToPlace
+        m_MethodName: 
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 6784456262320178042, guid: 6e16a3d7123a7b54dac5669bea300069, type: 3}
